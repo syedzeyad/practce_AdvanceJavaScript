@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eleven</title>
+</head>
+<body>
+    <script>
+        var myMarks = [30,45,68,32,45];
+        var criteria = 30; 
+        var bonusPoints = 5;
+        var total=[];
+        alert(myMarks.length);  
+        alert(myMarks);
+        for (var i=0;i<myMarks.length;i++){
+        total=myMarks[i]+bonusPoints;    
+        alert(total);
+        if(total<criteria){
+        alert("failed")}
+        else{
+        alert("passed")
+        }
+        
+           
+        }
+
+        
+    </script>
+</body>
+</html>
